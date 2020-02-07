@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.osx.vendored_libraries  = "CPAProxyDependencies-macOS/*.a"
   s.osx.resource_bundles = {"CPAProxy" => ["CPAProxyDependencies-macOS/geoip", "CPAProxyDependencies-macOS/geoip6", "CPAProxyDependencies-macOS/torrc"]}
 
-  s.libraries   = 'crypto', 'curve25519_donna', 'ed25519_donna', 'ed25519_ref10', 'event', 'event_core',
-                  'event_extra', 'event_openssl', 'event_pthreads', 'keccak-tiny', 'lzma', 'or-trunnel', 'ssl',
+  s.libraries   = 'curve25519_donna', 'ed25519_donna', 'ed25519_ref10', 'event', 'event_core',
+                  'event_extra', 'event_openssl', 'event_pthreads', 'keccak-tiny', 'lzma', 'or-trunnel',
                   'tor-app', 'tor-buf', 'tor-compress', 'tor-container', 'tor-crypt-ops', 'tor-ctime', 'tor-encoding',
                   'tor-err', 'tor-evloop', 'tor-fdio', 'tor-fs', 'tor-geoip', 'tor-intmath', 'tor-lock', 'tor-log', 'tor-malloc',
                   'tor-math', 'tor-memarea', 'tor-meminfo', 'tor-net', 'tor-osinfo', 'tor-process', 'tor-sandbox', 'tor-smartlist-core',
