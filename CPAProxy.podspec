@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   CMD
 
   s.dependency 'CocoaAsyncSocket'
+  s.dependency "OpenSSL"
 
   s.ios.deployment_target = "8.0"
   s.ios.source_files = "CPAProxy/*.{h,m}", "CPAProxyDependencies-iOS/tor_cpaproxy.h"
