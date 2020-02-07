@@ -156,9 +156,9 @@ cd ../
 # Combine binaries of different architectures results
 
 # OpenSSL
-BINS=(libcrypto.a libssl.a)
+# BINS=(libcrypto.a libssl.a)
 # libevent
-BINS+=(libevent_core.a libevent_pthreads.a libevent_extra.a libevent_openssl.a libevent.a)
+BINS=(libevent_core.a libevent_pthreads.a libevent_extra.a libevent_openssl.a libevent.a)
 # Tor
 BINS+=(libed25519_ref10.a libed25519_donna.a libkeccak-tiny.a libtor-err.a libtor-ctime.a libtor-compress.a)
 BINS+=(libtor-container.a libtor-crypt-ops.a libtor-encoding.a libtor-evloop.a libtor-fdio.a libtor-fs.a libcurve25519_donna.a)
